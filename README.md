@@ -1,11 +1,11 @@
 
-# Hópverkefni 1
+# Group project 1
 
 The project involves the construction of the website according to specifications.
 
 Given are  [examples](utlit/) in `500px`, `800px` and `1500px` with the grid along with `1500px` without the grid and an overview of the website's functionality `utlit/video.mp4`.
 
-## Síður
+## Pages
 
 Data for the pages in the appropriate text file (e.g. forsida.txt) under `efni/`. Images for pages are stored under `img/`. All the data between pages must be copied, this is not a requirement to set up a commonly owned header/footer inthe pages with some kind of system or programming.
 
@@ -28,13 +28,13 @@ All animations happening for `300ms` with `ease-in-out` hröðunarfalli.
 
 Nothing needs to be done with buttons and shapes.
 
-## Hópavinna
+## Group work
 
 The project needs to be development in the group with three other students. Be in touch with the teacher, if not possible to work in the group.
 
 Both Git and GitHub need to be used. No zip-files should to be going around in the group work, rather need to „commit“ all code and work through Git.
 
-## Lýsing á verkefni
+## Project description
 
 `README.md` file should be in the root of the project and include:
 
@@ -43,7 +43,7 @@ Both Git and GitHub need to be used. No zip-files should to be going around in t
 * Information about everyone who worked on the project
 * It is allowed to keep this project description, but it should come  _after_ your description
 
-## Tæki og tól
+## Devices and tools
 
 Sass and stylelint should be set up for the project. Given `styles.scss` file with basic information.
 
@@ -51,7 +51,7 @@ Given `.stylelintrc` file which says how lint for `scss` file should relate.
 
 In `.gitignore` is `styles.css` ignored which means that it is _not_ checked in. It is done so, because it is made by sass from `styles.scss`
 
-## Gefnar skrár
+## Given files
 
 The following is set up in the project:
 
@@ -64,7 +64,7 @@ The following is set up in the project:
 
 `package.json` need to be set up and appropriate packages need to be downloaded to enable the devices and tools that the project needs to use in order for it to work.
 
-## Mat
+## Grade assessment break-down
 
 * 10% - `README` eftir forskrift, tæki og tól uppsett
 * 20% – Snyrtilegt, gilt (skv. stylelint) CSS/Sass, gilt og aðgengilegt HTML
@@ -74,11 +74,11 @@ The following is set up in the project:
 * 10% – Um síða
 * 10% – Kaupa síða
 
-## Sett fyrir
+## Introduced
 
 Verkefni sett fyrir í fyrirlestri mánudaginn 8. október 2018.
 
-## Skil
+## Submission
 
 Einn aðili úr hóp skal skila fyrir hönd allra og skila skal undir „Verkefni og hlutaprófa“ á Uglu í seinasta lagi fyrir lok dags föstudaginn 26. október 2018.
 
@@ -88,13 +88,13 @@ Skil skulu innihalda:
 * Slóð á GitHub repo fyrir verkefni, og dæmatímakennurum skal hafa verið boðið í repo ([sjá leiðbeiningar](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)). Notendanöfn þeirra eru `arnar44`, `gorri4`, `mimiqkz`, `hinriksnaer`, `gunkol`, `freyrdanielsson` og `osk`
 * Slóð á verkefnið keyrandi á vefnum
 
-## Einkunn
+## Grading
 
 Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 3,5% hvert, samtals 28% af lokaeinkunn.
 
 Sett verða fyrir tvö stærri verkefni þar sem hvort um sig gildir 11%, samtals 22% af lokaeinkunn.
 
-## Myndir
+## Images
 
 Images from:
 
