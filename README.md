@@ -24,7 +24,7 @@ Most of everything is set up in 12 columns grid with `20px` gutter.
 
 All the intervals are half, whole, double or triple of the gutter. It is possible to use a ruler (e.g. http://www.arulerforwindows.com/ or http://www.pascal.com/software/freeruler/) to find the exact dimensions, but most importantly that the similar solution exists, but not exactly like on the example.
 
-All animations happening for `300ms` with `ease-in-out` hröðunarfalli.
+All animations happening for `300ms` with `ease-in-out`.
 
 Nothing needs to be done with buttons and shapes.
 
