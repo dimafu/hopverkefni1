@@ -4,7 +4,7 @@
   "description": "The project involves the construction of the website according to specifications.",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "browser-sync": "browser-sync start --server --files index.html pages/cart.html pages/products.html pages/staff.html styles.css",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
     "dev": "npm-run-all --parallel sass sass-watch browser-sync",
