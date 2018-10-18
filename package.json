@@ -1,0 +1,23 @@
+{
+  "name": "vef1-2018-h1",
+  "version": "0.1.0",
+  "description": "The project involves the construction of the website according to specifications.",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimafu/hopverkefni1.git"
+  },
+  "author": "Þorri már Sigurþórsson, Kjartan Elí Guðnason, Dmitrii Fufachev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimafu/hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/dimafu/hopverkefni1#readme",
+  "keywords": [],
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
