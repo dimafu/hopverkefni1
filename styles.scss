@@ -11,14 +11,14 @@
   box-sizing: inherit;
 }
 
-html { /* stylelint-disable-line */
+html {
+  /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
 }
 
-
-
 // TODO sækja allar sass skrár
-@import "scss/...";
+// @import "scss/button";
+// @import "scss/list";

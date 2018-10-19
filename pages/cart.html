@@ -1,22 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Karfa</title>
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <header>
-        <h1>Karfa</h1>
-        <nav>
-            <ul class="header_list">
-                <li class="header_listitem"><a href="index.html">FORSÍÐA</a></li>
-                <li class="header_listitem"><a href="pages/products.html">VÖRUR</a></li>
-                <li class="header_listitem"><a href="pages/staff.html">STARFSFÓLK</a></li>
-            </ul>
-            <button class="button_karfa">Karfa</button>
-      </header> 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Karfa</title>
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <h1>Karfa</h1>
+  <nav>
+    <ul class="header_list">
+      <li class="header_listitem"><a href="index.html">FORSÍÐA</a></li>
+      <li class="header_listitem"><a href="pages/products.html">VÖRUR</a></li>
+      <li class="header_listitem"><a href="pages/staff.html">STARFSFÓLK</a></li>
+    </ul>
+    <button class="button_karfa">Karfa</button>
+</header>
+
 <body>
   <h1>Vörur í körfu</h1>
   <div class="grid__row">
@@ -31,6 +33,16 @@
           <button class="cart_button">Uppfæra</button>
           <button class="cart_button">Eyða úr körfu</button>
     </div> 
+        <h1>Ótrúlegt úr</h1>
+        <p>Hvað er klukkan? Þetta úr mun svara því hvenær sem er.</p>
+        <ul>
+          <li class="list_verd">59.900 kr.-</li>
+        </ul>
+        <label>Fjöldi:<input type="text"></label>
+        <button>Uppfæra</button>
+        <button>Eyða úr körfu</button>
+      </div>
+    </div>
     <div class="grid__col">
       <img class="grid__img"class="grid__img"src="/img/watch.jpg" alt="Flott úr">
     </div>
@@ -82,41 +94,67 @@
                     <button class="cart_button">Kaupa</button>
             </div>
         </div> 
+    <div class="grid__col">
+      <div class="text">
+        <h1>Hágæða heyrnatól</h1>
+        <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að þau eru
+          hágæða?</p>
+        <ul>
+          <li class="list_verd">39.999 kr.-</li>
+        </ul>
+        <label>Fjöldi:<input type="text"></label>
+        <button>Uppfæra</button>
+        <button>Eyða úr körfu</button>
+      </div>
     </div>
+    <div class="grid__col">
+      <img src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
+    </div>
+  </div>
+  <div class="grid__row">
+    <div class="grid__col">
+      <div class="text">
+        <h1>Sendingarupplýsingar</h1>
+        <label>Nafn:<input type="text"></label>
+        <label>Heimilisfang:<input type="text"></label>
+        <label>Póstnúmer:<input type="text"></label>
+      </div>
+    </div>
+  </div>
 
-<footer>
-<nav>
-  <h2 class="footer_headline">Vöruflokkar</h2>
-    <ul class="footer_list">
-      <li class= "footer_listitem">Nauðsynjavörur</li>
-      <li class= "footer_listitem">Frábærar vörur</li>
-      <li class= "footer_listitem">Ómissandi vörur</li>
-      <li class= "footer_listitem">Ótrúlegar vörur</li>
-      <li class= "footer_listitem">Magnaðar vörur</li>
-    </ul>
-    <h2 class="footer_headline">Vöruflokkar</h2>
-    <ul class="footer_list">
-      <li class= "footer_listitem">Trylltar vörur</li>
-      <li class= "footer_listitem">Geggjaðar vörur</li>
-      <li class= "footer_listitem">Svakalegar vörur</li>
-      <li class= "footer_listitem">Fáránlegar vörur</li>
-      <li class= "footer_listitem">Klikkaðar vörur</li>
-    </ul>
-    <h2 class="footer_headline">Vöruflokkar</h2>
-    <ul class="footer_list">
-      <li class= "footer_listitem">Nýjar vörur</li>
-      <li class= "footer_listitem">Gamlar vörur</li>
-      <li class= "footer_listitem">Skrítnar vörur</li>
-    </ul>
-    <h2 class="footer_headline">Síður</h2>
-    <ul class="footer_list">
-      <li class= "footer_listitem">Allar vörur</li>
-      <li class= "footer_listitem">Starfsfólk</li>
-      <li class= "footer_listitem">Karfa</li>
-   </ul>
-   <p class="p_trademark">© 2018 Vöruhúsið</p>
-</nav>
-</footer>
+  <footer>
+    <nav>
+      <h2 class="footer_headline">Vöruflokkar</h2>
+      <ul class="footer_list">
+        <li class="footer_listitem">Nauðsynjavörur</li>
+        <li class="footer_listitem">Frábærar vörur</li>
+        <li class="footer_listitem">Ómissandi vörur</li>
+        <li class="footer_listitem">Ótrúlegar vörur</li>
+        <li class="footer_listitem">Magnaðar vörur</li>
+      </ul>
+      <h2 class="footer_headline">Vöruflokkar</h2>
+      <ul class="footer_list">
+        <li class="footer_listitem">Trylltar vörur</li>
+        <li class="footer_listitem">Geggjaðar vörur</li>
+        <li class="footer_listitem">Svakalegar vörur</li>
+        <li class="footer_listitem">Fáránlegar vörur</li>
+        <li class="footer_listitem">Klikkaðar vörur</li>
+      </ul>
+      <h2 class="footer_headline">Vöruflokkar</h2>
+      <ul class="footer_list">
+        <li class="footer_listitem">Nýjar vörur</li>
+        <li class="footer_listitem">Gamlar vörur</li>
+        <li class="footer_listitem">Skrítnar vörur</li>
+      </ul>
+      <h2 class="footer_headline">Síður</h2>
+      <ul class="footer_list">
+        <li class="footer_listitem">Allar vörur</li>
+        <li class="footer_listitem">Starfsfólk</li>
+        <li class="footer_listitem">Karfa</li>
+      </ul>
+      <p class="p_trademark">© 2018 Vöruhúsið</p>
+    </nav>
+  </footer>
 </body>
+
 </html>
-                
