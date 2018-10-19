@@ -1,4 +1,27 @@
-@import "scss/config";
+// @import "scss/config";
+@import "scss/staff";
+
+// Colors for the project
+$colors: (
+  cBlack: #000000,
+  cWhite: #ffffff,
+  cHeader: #afb281,
+  cHeaderLI: #cee8ff,
+  cFooterLI: #fcffd2,
+  cFooter: #cc9694
+);
+// Function to fetch out the colors
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+// Base font
+$baseFontSize: 16px;
+$mainWidth: 100%;
+
+// Font-families
+$font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
+$font-family-heading: "Oswald", Verdana, serif;
 
 * {
   padding: 0;
@@ -16,7 +39,84 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
 
+  font-size: $baseFontSize;
+
   // TODO fleiri grunn stillingar
+}
+
+h1 {
+  font-family: $font-family-heading;
+}
+
+body {
+  font-family: $font-family-body;
+  background: color(cSomeColor);
+}
+
+main {
+  max-width: 1200px;
+}
+
+header {
+  width: $mainWidth;
+  background: color(cHeader);
+  h1 {
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    ul {
+      display: flex;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.face {
+  backface-visibility: hidden;
+}
+
+.face .back {
+  display: block;
+  transform: rotateY(180deg);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  &__row {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-around;
+  }
+  &__col {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    flex: 1;
+    &:hover div {
+      transform: rotateY(180deg);
+      transform-style: preserve-3d; /* stackast í þrívídd */
+      transition: transform 0.3s linear; /* ease, ease-in o.fl. */
+    }
+  }
+  .image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  width: $mainWidth;
+  background: color(cFooter);
 }
 
 // TODO sækja allar sass skrár

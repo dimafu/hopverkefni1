@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vöruhúsið</title>
-  <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="styles.css">
+  <title>Starfsfólk</title>
+  <link rel="stylesheet" href="../grid.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
 </head>
 
 <body>
@@ -14,33 +15,40 @@
   <header>
     <h1>Starfsfólk</h1>
     <nav>
-      <ul class="header_list">
-        <li class="header_listitem"><a href="../index.html">FORSÍÐA</a></li>
-        <li class="header_listitem"><a href="products.html">VÖRUR</a></li>
-        <li class="header_listitem"><a href="staff.html">STARFSFÓLK</a></li>
+      <ul class="header__list">
+        <li class="header__listitem"><a href="../index.html">FORSÍÐA</a></li>
+        <li class="header__listitem"><a href="products.html">VÖRUR</a></li>
+        <li class="header__listitem"><a href="staff.html">STARFSFÓLK</a></li>
       </ul>
       <button class="button_karfa">Karfa</button>
+    </nav>
   </header>
   <!-- Here starts the main part -->
-  <div class="grid">
 
-    <div class="grid__row">
-      <div class="grid__col">
-        <img class="image" src="/img/karolina.jpg" alt="Afskaplega lorem-ipsum-leg pálmatré">
-      </div>
-      <div class="grid__col">
-        <img class="image" src="/img/tomas.jpg" alt="Afskaplega lorem-ipsum-leg pálmatré">
-      </div>
-    </div>
+  <main>
+    <div class="grid">
 
-    <div class="grid__row">
-      <div class="grid__col">
-        <img class="image" src="/img/anna.jpg" alt="Jafnvel lorem-ipsum-legri pálmatré">
+      <div class="grid__row">
+        <div class="grid__col">
+          <div class="face"><img class="image" src="/img/karolina.jpg" alt="Afskaplega lorem-ipsum-leg pálmatré"></div>
+          <div class="face back">
+            <p>Karólína Pálsdóttir Karólína er forstjóri Vöruhússins.</p>
+          </div>
+        </div>
+        <div class="grid__col">
+          <img class="image" src="/img/tomas.jpg" alt="Afskaplega lorem-ipsum-leg pálmatré">
+        </div>
       </div>
-      <div class="grid__col">
-        <img class="image" src="/img/jon.jpg" alt="Jafnvel lorem-ipsum-legri pálmatré">
+
+      <div class="grid__row">
+        <div class="grid__col">
+          <img class="image" src="/img/anna.jpg" alt="Jafnvel lorem-ipsum-legri pálmatré">
+        </div>
+        <div class="grid__col">
+          <img class="image" src="/img/jon.jpg" alt="Jafnvel lorem-ipsum-legri pálmatré">
+        </div>
       </div>
-    </div>
+  </main>
 
   </div>
   <!-- Here starts the footer -->
