@@ -18,6 +18,7 @@
             <button class="button_karfa">Karfa</button>
       </header> 
 <body>
+  <h1>Vörur í körfu</h1>
   <div class="grid__row">
     <div class="grid__col">
       <div class="text">
@@ -27,12 +28,11 @@
                 <li class="list_verd">59.900 kr.-</li>
             </ul>
           <label>Fjöldi:<input type="text"></label>
-          <button>Uppfæra</button>
-          <button>Eyða úr körfu</button>
-      </div>
+          <button class="cart_button">Uppfæra</button>
+          <button class="cart_button">Eyða úr körfu</button>
     </div> 
     <div class="grid__col">
-      <img src="/img/watch.jpg" alt="Flott úr">
+      <img class="grid__img"class="grid__img"src="/img/watch.jpg" alt="Flott úr">
     </div>
   </div>
   <div class="grid__row">
@@ -49,7 +49,7 @@
           </div>
         </div> 
         <div class="grid__col">
-          <img src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
+          <img class="grid__img"src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
         </div>
     </div>
     <div class="grid__row">
@@ -58,7 +58,28 @@
                   <h1>Sendingarupplýsingar</h1>
                   <label>Nafn:<input type="text"></label>
                   <label>Heimilisfang:<input type="text"></label>
-                  <label>Póstnúmer:<input type="text"></label>
+                  <label>Póstnúmer:<input type="text"></label> 
+            </div>
+        </div> 
+        <div class="grid__col">
+            <div class="text">
+                  <h1>Greiðsluupplýsingar</h1>
+                  <label>Kortanúmer:<input type="text"></label>
+                  <label>Korthafi:<input type="text"></label>
+                  <select>
+                      <label>Gildistími:</label>
+                      <option value="volvo">Jan</option>
+                      <option value="saab">Feb</option>
+                      <option value="opel">Mars</option>
+                      <option value="audi">Apr</option>
+                      <option value="audi">Jún</option>
+                      <option value="audi">Júl</option>
+                      <option value="audi">Ágt</option>
+                      <option value="audi">Sept</option>
+                      <option value="audi">Nóv</option>
+                      <option value="audi">Des</option>
+                    </select>
+                    <button class="cart_button">Kaupa</button>
             </div>
         </div> 
     </div>
