@@ -1,6 +1,7 @@
 // @import "scss/config";
 @import "scss/staff";
 
+// ALL THE STYLES APPLIED ACROSS THE PAGES ARE HERE
 // Colors for the project
 $colors: (
   cBlack: #000000,
@@ -40,13 +41,12 @@ h1 {
 
 body {
   font-family: $font-family-body;
-  background: color(cSomeColor);
 }
 
 main {
   max-width: 1200px;
 }
-
+// Header styles
 header {
   width: $mainWidth;
   background: color(cHeader);
@@ -67,43 +67,7 @@ header {
     }
   }
 }
-
-.face {
-  backface-visibility: hidden;
-}
-
-.face .back {
-  display: block;
-  transform: rotateY(180deg);
-}
-
-.grid {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  &__row {
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    justify-content: space-around;
-  }
-  &__col {
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    flex: 1;
-    &:hover div {
-      transform: rotateY(180deg);
-      transform-style: preserve-3d; /* stackast í þrívídd */
-      transition: transform 0.3s linear; /* ease, ease-in o.fl. */
-    }
-  }
-  .image {
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
+// Footer styles
 footer {
   width: $mainWidth;
   background: color(cFooter);
