@@ -3,8 +3,18 @@ main {
   margin: auto;
 }
 
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out;
+}
+
 .face {
   backface-visibility: hidden;
+}
+
+.center {
+    text-align: center;
 }
 
 .face.back {
@@ -25,15 +35,14 @@ main {
   align-content: center;
   &__row {
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
     justify-content: space-between;
   }
   &__col {
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.3s ease-in-out;
-    &:hover {
+    padding-right: 10px;
+    padding-left: 10px;
+    &:hover .card {
       transform: rotateY(180deg);
     }
   }
