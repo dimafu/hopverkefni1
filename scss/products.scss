@@ -13,6 +13,23 @@
     padding-left: 20px;
   }
 
+  & h2 {
+    font-family: 'Oswald';
+    margin: 0 20px;
+    font-size: 36px;
+  }
+
+  & h3 {
+    font-family: 'Oswald';
+    margin: 0 20px; }
+    font-size: 21px;    
+  }
+
+  & p {
+    font-family: 'Open Sans';
+    margin: 20px 0;    
+  }
+
   &__description {
     flex-grow: 1;
   }
@@ -86,7 +103,13 @@
       border: solid 1px;
       border-radius: 5px;
       min-width: 140px;
-      transition: background-color 400ms ease-in-out;
+
+      transition: background-color 300ms ease-in-out;
+
+      &:hover {
+        background-color: #cc9694;
+        cursor: pointer;
+      }
     }
 
     &__image {
@@ -99,5 +122,3 @@
       margin-left: 10px;
     }
   }
-
-}
