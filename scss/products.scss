@@ -1,43 +1,103 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }*/
-main {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding-left: 20px;
+
+
+
+
+
+.gridproducts {
+  cursor: default;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (max-width: 1199) {
     padding-right: 20px;
+    padding-left: 20px;
   }
-  h2 {
-    margin-bottom: 10px;
+
+  &__description {
+    flex-grow: 1;
   }
-  .textproducts p {
-    margin-bottom: 20px;
-  }
-.gridproducts{
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .gridproducts__row {
+
+  &__row {
     display: flex;
-    margin-left: -10px;
     margin-right: -10px;
+    margin-left: -10px;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    @media (min-width: 600px) {
+      //Stuffs
+    }
   }
-  
-  .gridproducts__col {
+
+  &__row--vertical {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__col{
+    width: 100%;
     padding-right: 10px;
     padding-left: 10px;
+    margin-bottom: 40px;
+
+    @media (min-width: 600px) {
+      width: 50%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    @media (min-width: 1000px) {
+      width: 33.33333%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
   }
-  .gridproducts__img {
-      max-width: 100%;
-      margin-bottom: 20px;
-      margin-top: 20px;
+
+  .buy {
+
+    &__add {
+      display: flex;
+    }
+
+    &__addinput {
+      flex-grow: 1;
+      border: solid 1px;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    &__amount {
+      cursor: auto;
+      max-width: 60px;
+      border: 0;
+    }
   }
-  .list__verd {
-    list-style: none;
-    margin-bottom: 10px;
+
+  .checkoutButton {
+
+    &__box {
+      display: flex;
+      margin-left: 10px;
+      justify-content: center;
+      padding: 10px;
+      align-items: center;
+      border: solid 1px;
+      border-radius: 5px;
+      min-width: 140px;
+      transition: background-color 400ms ease-in-out;
+    }
+
+    &__image {
+      align-content: center;
+      width:20px;
+      height:20px;
+    }
+
+    &__text {
+      margin-left: 10px;
+    }
   }
+
+}
