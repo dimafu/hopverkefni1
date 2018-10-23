@@ -1,9 +1,5 @@
-// @import "scss/config";
-@import "scss/staff";
-@import "scss/cart";
-@import "scss/index.scss";
-@import "scss/products";
-@import "scss/header";
+@import "scss/config";
+
 
 // ALL THE STYLES APPLIED ACROSS THE PAGES ARE HERE
 // Colors for the project
@@ -87,3 +83,8 @@ footer {
 // TODO sækja allar sass skrár
 // @import "scss/button";
 // @import "scss/list";
+@import "scss/staff";
+@import "scss/cart";
+@import "scss/index.scss";
+@import "scss/products";
+@import "scss/header";

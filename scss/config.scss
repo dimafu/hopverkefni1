@@ -1,1 +1,16 @@
 // TODO stillingar hér
+$colors: (
+  cBlack: #000000,
+  cWhite: #ffffff,
+  cHeader: #afb281,
+  cHeaderLI: #cee8ff,
+  cFooterLI: #fcffd2,
+  cFooter: #cc9694
+);
+
+// Base font
+$baseFontSize: 16px;
+$mainWidth: 100%;
+// Font-families
+$font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
+$font-family-heading: "Oswald", Verdana, serif;
