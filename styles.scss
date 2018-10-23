@@ -1,5 +1,6 @@
 // @import "scss/config";
 @import "scss/staff";
+@import "scss/cart";
 @import "scss/index.scss";
 @import "scss/products";
 @import "scss/header";
@@ -18,61 +19,117 @@ $colors: (
 @function color($color-name) {
   @return map-get($colors, $color-name);
 }
-
 // Base font
 $baseFontSize: 16px;
 $mainWidth: 100%;
-
 // Font-families
 $font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
 $font-family-heading: "Oswald", Verdana, serif;
-
-
 html {
   /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-
-  font-size: $baseFontSize;
-
-  // TODO fleiri grunn stillingar
+  font-size: $baseFontSize; // TODO fleiri grunn stillingar
 }
-
 h1 {
   font-family: $font-family-heading;
 }
-
 body {
   font-family: $font-family-body;
 }
-
 * {
   padding: 0;
-  margin: 0; }
-
+  margin: 0;
+}
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
-
+  box-sizing: inherit;
+}
 main {
   max-width: 1200px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
-
   @media (min-width: 1250px) {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
+<<<<<<< HEAD
 
+=======
+// Header styles
+header {
+  width: $mainWidth;
+  background: color(cHeader);
+  h1 {
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    ul {
+      display: flex;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+// Grid styles
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  &__row {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  &__col {
+    padding-right: 10px;
+    padding-left: 10px;
+    &:hover .card {
+      transform: rotateY(180deg);
+    }
+  }
+  .image {
+    max-width: 100%;
+  }
+}
+>>>>>>> dfcfdd6884ba1b7b137ea8f7a700678757518c09
 // Footer styles
 footer {
   width: $mainWidth;
   background: color(cFooter);
+  padding: 10px;
 }
-
+.footer_listitem {
+  color: color(cFooterLI);
+  transition: 0.3s ease-in-out;
+  list-style: none;
+  padding: 10px;
+}
+.footer_listitem:hover {
+  color: #000000;
+}
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.p__trademark {
+  text-align: center;
+}
+@media (max-width: 600px){
+  .footer__col {
+    width: 50%;
+  } 
+}
 // TODO sækja allar sass skrár
 // @import "scss/button";
 // @import "scss/list";
