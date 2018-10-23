@@ -73,7 +73,14 @@ header {
 footer {
   width: $mainWidth;
   background: color(cFooter);
+  color: color(cFooterLI);
 }
+
+/*
+footer nav {
+  display: flex;
+}
+*/
 
 // TODO sækja allar sass skrár
 // @import "scss/button";
