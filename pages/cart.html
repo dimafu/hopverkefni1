@@ -11,18 +11,20 @@
 </head>
 
 <body>
-  <!-- Here starts the header -->
   <header>
     <h1>Karfa</h1>
-    <nav>
-      <ul class="header_list">
-        <li class="header_listitem"><a href="../index.html">FORSÍÐA</a></li>
-        <li class="header_listitem"><a href="products.html">VÖRUR</a></li>
-        <li class="header_listitem"><a href="staff.html">STARFSFÓLK</a></li>
+    <nav class="header">
+      <ul class="header__list">
+          <li class="header__listitem"><a class="link" href="../index.html">FORSÍÐA</a></li>
+          <li class="header__listitem"><a class="link" href="products.html"><u>VÖRUR</u></a></li>
+          <li class="header__listitem"><a class="link" href="staff.html">STARFSFÓLK</a></li>
       </ul>
-      <a href="cart.html"><button class="button_karfa">Karfa</button></a>
-  </header>
-  <!-- Here starts the main part -->
+      <div class="checkout">
+        <img class="checkout__image" src="/img/cart.svg" alt="Checkout">
+        <div class ="checkout__text"> <a class="link" href="/pages/cart.html">Karfa (3)</a></div>
+      </div>
+    </nav>   
+</header>
   <main>
     <div class="gridcart">
       <h1>Vörur í körfu</h1>
