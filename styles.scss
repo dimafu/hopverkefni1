@@ -56,52 +56,6 @@ main {
     padding-right: 0px;
   }
 }
-<<<<<<< HEAD
-
-=======
-// Header styles
-header {
-  width: $mainWidth;
-  background: color(cHeader);
-  h1 {
-    text-align: center;
-  }
-  nav {
-    display: flex;
-    flex-direction: row;
-    ul {
-      display: flex;
-    }
-  }
-  a {
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-// Grid styles
-.grid {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  &__row {
-    display: flex;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  &__col {
-    padding-right: 10px;
-    padding-left: 10px;
-    &:hover .card {
-      transform: rotateY(180deg);
-    }
-  }
-  .image {
-    max-width: 100%;
-  }
-}
->>>>>>> dfcfdd6884ba1b7b137ea8f7a700678757518c09
 // Footer styles
 footer {
   width: $mainWidth;
