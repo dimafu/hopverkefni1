@@ -57,7 +57,7 @@ header {
         transition: color 300ms ease-in-out;
 
         &:hover {
-          color: $cHeaderLI;
+          color: #cee8ff;
           cursor: pointer;
         }
       }
@@ -65,10 +65,10 @@ header {
 
     .link {
       text-decoration: none;
-      color: $cBlack;
+      color: #000000;
       transition: color 300ms ease-in-out;
       &:hover {
-        color:$cHeaderLI;
+        color: #cee8ff;
         cursor: pointer;
       }
     }
