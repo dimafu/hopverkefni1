@@ -39,7 +39,8 @@
 .halfwidth {
   display: flex;
   flex-direction: row;
-  .empty {
-    flex: 1;
-  }
+}
+
+.empty {
+  flex: 1;
 }
