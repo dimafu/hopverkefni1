@@ -44,8 +44,25 @@ body {
   font-family: $font-family-body;
 }
 
+* {
+  padding: 0;
+  margin: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
 main {
   max-width: 1200px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: 1250px) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 // Header styles
 header {
