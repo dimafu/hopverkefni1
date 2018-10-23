@@ -10,15 +10,12 @@
 
   h2 {
     font-family: "Oswald";
-    margin: 0 20px;
     font-size: 36px;
   }
 
   h3 {
     font-family: "Oswald";
-    margin: 0 20px;
   }
-  font-size: 21px;
 
   p {
     font-family: "Open Sans";
@@ -29,16 +26,16 @@
     flex-grow: 1;
   }
 
+  &__img {
+    max-width: 100%;
+  }
+
   &__row {
     display: flex;
     margin-right: -10px;
     margin-left: -10px;
     flex-wrap: wrap;
     align-items: stretch;
-
-    @media (min-width: 600px) {
-      //Stuffs
-    }
   }
 
   &__row--vertical {
