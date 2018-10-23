@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Karfa</title>
+  <title>Vöruhúsið</title>
   <link rel="stylesheet" href="../grid.css">
   <link rel="stylesheet" href="../styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
@@ -21,86 +21,75 @@
         <li class="header_listitem"><a href="staff.html">STARFSFÓLK</a></li>
       </ul>
       <a href="cart.html"><button class="button_karfa">Karfa</button></a>
+    </nav>
   </header>
   <!-- Here starts the main part -->
   <main>
+    <h2>Vörur í körfu</h2>
     <div class="gridcart">
-      <h1>Vörur í körfu</h1>
+      <!-- Col Watches -->
       <div class="gridcart__row">
-        <div class="gridcart__col">
-          <div class="cart__img">
-            <img class="image" src="/img/watch.jpg" alt="Flott úr">
-          </div>
-        </div>
-        <div class="gridcart__col">
-          <div class="cart__txt">
-            <h1>Ótrúlegt úr</h1>
+        <!-- Col Watches Row Image -->
+        <div class="gridcart__left"><img class="gridcart__img" src="../img/watch.jpg" alt="Product"></div>
+        <!-- Col Watches Row Info -->
+        <div class="gridcart__right">
+          <div class="gridcart__description">
+            <h2>Ótrúlegt úr</h2>
             <p>Hvað er klukkan? Þetta úr mun svara því hvenær sem er.</p>
-            <ul>
-              <li class="list_verd">99.900 kr.-</li>
-            </ul>
-            <label>Fjöldi:<input type="text"></label>
-            <button>Uppfæra</button>
-            <button>Eyða úr körfu</button>
+          </div>
+          <div class="buy">
+            <h3>99.900 kr.</h3>
+            <div class="buy__text">Fjöldi:</div>
+            <div class="halfwidth">
+              <div class="buy__add">
+                <div class="buy__addinput">
+                  <input class="buy__amount" type="number" value="1">
+                </div>
+                <div class="checkoutButton__box">
+                  <img class="checkoutButton__image" src="../img/cart.svg" alt="checkout">
+                  <div class="checkoutButton__text">Uppfæra</div>
+                </div>
+                <div class="checkoutButton__box">
+                  <img class="checkoutButton__image" src="../img/cart.svg" alt="checkout">
+                  <div class="checkoutButton__text">Eyða úr körfu</div>
+                </div>
+              </div>
+              <div class="empty"></div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- Col Headphones -->
       <div class="gridcart__row">
-        <div class="gridcart__col">
-          <div class="cart__img">
-            <img class="image" src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
+        <!-- Col Headphones Row Image -->
+        <div class="gridcart__left"><img class="gridcart__img" src="../img/headphones.jpg" alt="Product"></div>
+        <!-- Col Headphones Row Info -->
+        <div class="gridcart__right">
+          <div class="gridcart__description">
+            <h2>Hágæða heyrnatól</h2>
+            <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða
+              heyrnartólum. Höfum við minnst á að þau
+              eru hágæða?</p>
           </div>
-        </div>
-        <div class="gridcart__col">
-          <div class="cart__txt">
-            <h1>Hágæða heyrnatól</h1>
-            <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að
-              þau
-              eru
-              hágæða?</p>
-            <ul>
-              <li class="list_verd">39.999 kr.-</li>
-            </ul>
-            <label>Fjöldi:<input type="text"></label>
-            <button>Uppfæra</button>
-            <button>Eyða úr körfu</button>
-          </div>
-        </div>
-      </div>
-      <div class="gridcart__row">
-        <div class="gridcart__col">
-          <div class="text">
-            <h1>Sendingarupplýsingar</h1>
-            <label>Nafn:<input type="text"></label>
-            <label>Heimilisfang:<input type="text"></label>
-            <label>Póstnúmer:<input type="text"></label>
-          </div>
-        </div>
-        <div class="gridcart__col">
-          <div class="text">
-            <h1>Greiðsluupplýsingar</h1>
-            <label>Kortanúmer:<input type="text"></label>
-            <label>Korthafi:<input type="text"></label>
-            <select>
-              <label>Gildistími:</label>
-              <option value="volvo">Jan</option>
-              <option value="saab">Feb</option>
-              <option value="opel">Mars</option>
-              <option value="audi">Apr</option>
-              <option value="audi">Jún</option>
-              <option value="audi">Júl</option>
-              <option value="audi">Ágt</option>
-              <option value="audi">Sept</option>
-              <option value="audi">Nóv</option>
-              <option value="audi">Des</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="gridcart__row">
-        <div class="gridcart__col">
-          <div class="button__cart">
-            <button class="cart_button">Kaupa</button>
+          <div class="buy">
+            <h3>39.999 kr.</h3>
+            <div class="buy__text">Fjöldi:</div>
+            <div class="halfwidth">
+              <div class="buy__add">
+                <div class="buy__addinput">
+                  <input class="buy__amount" type="number" value="1">
+                </div>
+                <div class="checkoutButton__box">
+                  <img class="checkoutButton__image" src="../img/cart.svg" alt="checkout">
+                  <div class="checkoutButton__text">Uppfæra</div>
+                </div>
+                <div class="checkoutButton__box">
+                  <img class="checkoutButton__image" src="../img/cart.svg" alt="checkout">
+                  <div class="checkoutButton__text">Eyða úr körfu</div>
+                </div>
+              </div>
+              <div class="empty"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -140,6 +129,7 @@
       <p class="p_trademark">© 2018 Vöruhúsið</p>
     </nav>
   </footer>
+
 </body>
 
 </html>

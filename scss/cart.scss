@@ -1,36 +1,45 @@
-// Here is style related to cart.html
-
 .gridcart {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: -10px;
+  padding-left: -10px;
+
+  &__img {
+    max-width: 100%;
+  }
+
   &__row {
     display: flex;
-    margin-left: -10px;
+    flex-direction: row;
+    height: 100%;
     margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
-  &__col {
-    display: flex;
+
+  &__left {
     flex: 1;
     padding-right: 10px;
     padding-left: 10px;
-    &:nth-child(2) {
-      flex: 2;
-    }
   }
-  .image {
-    max-width: 100%;
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
-// .cart__card {
-//   display: flex;
-// }
-
-// .cart__img {
-//   flex-grow: 1;
-// }
-
-// .cart__txt {
-//   display: flex;
-//   flex-grow: 2;
-// }
+.halfwidth {
+  display: flex;
+  flex-direction: row;
+  .empty {
+    flex: 1;
+  }
+}

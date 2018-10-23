@@ -9,16 +9,10 @@
   }
 
   h2 {
-    font-family: "Oswald";
     font-size: 36px;
   }
 
-  h3 {
-    font-family: "Oswald";
-  }
-
   p {
-    font-family: "Open Sans";
     margin: 20px 0;
   }
 
@@ -35,7 +29,7 @@
     margin-right: -10px;
     margin-left: -10px;
     flex-wrap: wrap;
-    align-items: stretch;
+    // align-items: stretch;
   }
 
   &__row--vertical {

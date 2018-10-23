@@ -37,7 +37,7 @@ html {
   // TODO fleiri grunn stillingar
 }
 
-h1 {
+h1, h2, h3 {
   font-family: $font-family-heading;
 }
 
@@ -69,6 +69,7 @@ main {
 header {
   width: $mainWidth;
   background: color(cHeader);
+  margin-bottom: 40px;
   h1 {
     text-align: center;
   }
@@ -112,6 +113,7 @@ header {
 footer {
   width: $mainWidth;
   background: color(cFooter);
+  margin-top: 60px;
 }
 
 // TODO sækja allar sass skrár
