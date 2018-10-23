@@ -18,48 +18,38 @@ $colors: (
 @function color($color-name) {
   @return map-get($colors, $color-name);
 }
-
 // Base font
 $baseFontSize: 16px;
 $mainWidth: 100%;
-
 // Font-families
 $font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
 $font-family-heading: "Oswald", Verdana, serif;
-
 html {
   /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
-
-  font-size: $baseFontSize;
-
-  // TODO fleiri grunn stillingar
+  font-size: $baseFontSize; // TODO fleiri grunn stillingar
 }
-
 h1 {
   font-family: $font-family-heading;
 }
-
 body {
   font-family: $font-family-body;
 }
-
 * {
   padding: 0;
-  margin: 0; }
-
+  margin: 0;
+}
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
-
+  box-sizing: inherit;
+}
 main {
   max-width: 1200px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
-
   @media (min-width: 1250px) {
     padding-left: 0px;
     padding-right: 0px;
@@ -107,20 +97,34 @@ header {
     max-width: 100%;
   }
 }
-
 // Footer styles
 footer {
   width: $mainWidth;
   background: color(cFooter);
+  padding: 10px;
+}
+.footer_listitem {
   color: color(cFooterLI);
+  transition: 0.3s ease-in-out;
+  list-style: none;
+  padding: 10px;
 }
-
-/*
-footer nav {
+.footer_listitem:hover {
+  color: #000000;
+}
+.footer__row {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-*/
-
+.p__trademark {
+  text-align: center;
+}
+@media (max-width: 600px){
+  .footer__col {
+    width: 50%;
+  } 
+}
 // TODO sækja allar sass skrár
 // @import "scss/button";
 // @import "scss/list";

@@ -6,7 +6,7 @@
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html pages/cart.html pages/products.html pages/staff.html styles.css",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
-    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch --recursive styles.scss styles.css",
     "dev": "npm-run-all --parallel sass sass-watch browser-sync",
     "lint": "stylelint styles.scss --syntax scss"
   },
