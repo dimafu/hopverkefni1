@@ -1,8 +1,3 @@
-
-
-
-
-
 .gridproducts {
   cursor: default;
   max-width: 1200px;
@@ -13,23 +8,18 @@
     padding-left: 20px;
   }
 
-  & h2 {
-    font-family: 'Oswald';
+  h2 {
+    font-family: "Oswald";
     font-size: 36px;
   }
 
-  & h3 {
-    font-family: 'Oswald';
-    font-size: 21px;    
+  h3 {
+    font-family: "Oswald";
   }
 
-  & p {
-    font-family: 'Open Sans';
+  p {
+    font-family: "Open Sans";
     margin: 20px 0;
-  }
-
-  &__img {
-    max-width: 100%;
   }
 
   &__description {
@@ -55,7 +45,7 @@
     justify-content: space-between;
   }
 
-  &__col{
+  &__col {
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
@@ -73,55 +63,52 @@
       padding-left: 10px;
     }
   }
+}
+.buy {
+  &__add {
+    display: flex;
+  }
 
-  .buy {
+  &__addinput {
+    flex-grow: 1;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+  }
 
-    &__add {
-      display: flex;
-    }
+  &__amount {
+    cursor: auto;
+    max-width: 60px;
+    border: 0;
+  }
+}
 
-    &__addinput {
-      flex-grow: 1;
-      border: solid 1px;
-      border-radius: 5px;
-      padding: 10px;
-    }
+.checkoutButton {
+  &__box {
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 5px;
+    min-width: 140px;
 
-    &__amount {
-      cursor: auto;
-      max-width: 60px;
-      border: 0;
+    transition: background-color 300ms ease-in-out;
+
+    &:hover {
+      background-color: #cc9694;
+      cursor: pointer;
     }
   }
 
-  .checkoutButton {
+  &__image {
+    align-content: center;
+    width: 20px;
+    height: 20px;
+  }
 
-    &__box {
-      display: flex;
-      margin-left: 10px;
-      justify-content: center;
-      padding: 10px;
-      align-items: center;
-      border: solid 1px;
-      border-radius: 5px;
-      min-width: 140px;
-
-      transition: background-color 300ms ease-in-out;
-
-      &:hover {
-        background-color: #cc9694;
-        cursor: pointer;
-      }
-    }
-
-    &__image {
-      align-content: center;
-      width:20px;
-      height:20px;
-    }
-
-    &__text {
-      margin-left: 10px;
-    }
+  &__text {
+    margin-left: 10px;
   }
 }
