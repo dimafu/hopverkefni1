@@ -9,16 +9,16 @@
   }
 
   h2 {
-    font-family: "Oswald";
+    font-family: $font-family-heading;
     font-size: 36px;
   }
 
   h3 {
-    font-family: "Oswald";
+    font-family: $font-family-heading;
   }
 
   p {
-    font-family: "Open Sans";
+    font-family: $font-family-body;
     margin: 20px 0;
   }
 

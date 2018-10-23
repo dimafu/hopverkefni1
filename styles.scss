@@ -2,6 +2,7 @@
 @import "scss/staff";
 @import "scss/index.scss";
 @import "scss/products";
+@import "scss/header";
 
 // ALL THE STYLES APPLIED ACROSS THE PAGES ARE HERE
 // Colors for the project
@@ -65,27 +66,7 @@ main {
     padding-right: 0px;
   }
 }
-// Header styles
-header {
-  width: $mainWidth;
-  background: color(cHeader);
-  h1 {
-    text-align: center;
-  }
-  nav {
-    display: flex;
-    flex-direction: row;
-    ul {
-      display: flex;
-    }
-  }
-  a {
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
+
 // Footer styles
 footer {
   width: $mainWidth;
