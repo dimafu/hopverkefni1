@@ -1,8 +1,3 @@
-main {
-  max-width: 1200px;
-  margin: auto;
-}
-
 .card {
   position: relative;
   transform-style: preserve-3d;
@@ -14,7 +9,7 @@ main {
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .face.back {
@@ -37,7 +32,6 @@ main {
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
-    justify-content: space-between;
   }
   &__col {
     padding-right: 10px;

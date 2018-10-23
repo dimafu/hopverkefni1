@@ -5,123 +5,108 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Karfa</title>
-  <link rel="stylesheet" href="grid.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../grid.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
 </head>
-<header>
-  <h1>Karfa</h1>
-  <nav>
-    <ul class="header_list">
-      <li class="header_listitem"><a href="index.html">FORSÍÐA</a></li>
-      <li class="header_listitem"><a href="pages/products.html">VÖRUR</a></li>
-      <li class="header_listitem"><a href="pages/staff.html">STARFSFÓLK</a></li>
-    </ul>
-    <button class="button_karfa">Karfa</button>
-</header>
 
 <body>
-  <h1>Vörur í körfu</h1>
-  <div class="grid__row">
-    <div class="grid__col">
-      <div class="text">
-          <h1>Ótrúlegt úr</h1>
-          <p>Hvað er klukkan? Þetta úr mun svara því hvenær sem er.</p>
-            <ul>
-                <li class="list_verd">59.900 kr.-</li>
-            </ul>
-          <label>Fjöldi:<input type="text"></label>
-          <button class="cart_button">Uppfæra</button>
-          <button class="cart_button">Eyða úr körfu</button>
-    </div> 
-        <h1>Ótrúlegt úr</h1>
-        <p>Hvað er klukkan? Þetta úr mun svara því hvenær sem er.</p>
-        <ul>
-          <li class="list_verd">59.900 kr.-</li>
-        </ul>
-        <label>Fjöldi:<input type="text"></label>
-        <button>Uppfæra</button>
-        <button>Eyða úr körfu</button>
-      </div>
-    </div>
-    <div class="grid__col">
-      <img class="grid__img"class="grid__img"src="/img/watch.jpg" alt="Flott úr">
-    </div>
-  </div>
-  <div class="grid__row">
-        <div class="grid__col">
-          <div class="text">
-              <h1>Hágæða heyrnatól</h1>
-              <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að þau eru hágæða?</p>
-                <ul>
-                    <li class="list_verd">39.999 kr.-</li>
-                </ul>
-              <label>Fjöldi:<input type="text"></label>
-              <button>Uppfæra</button>
-              <button>Eyða úr körfu</button>
+  <!-- Here starts the header -->
+  <header>
+    <h1>Karfa</h1>
+    <nav>
+      <ul class="header_list">
+        <li class="header_listitem"><a href="../index.html">FORSÍÐA</a></li>
+        <li class="header_listitem"><a href="products.html">VÖRUR</a></li>
+        <li class="header_listitem"><a href="staff.html">STARFSFÓLK</a></li>
+      </ul>
+      <a href="cart.html"><button class="button_karfa">Karfa</button></a>
+  </header>
+  <!-- Here starts the main part -->
+  <main>
+    <div class="gridcart">
+      <h1>Vörur í körfu</h1>
+      <div class="gridcart__row">
+        <div class="gridcart__col">
+          <div class="cart__img">
+            <img class="image" src="/img/watch.jpg" alt="Flott úr">
           </div>
-        </div> 
-        <div class="grid__col">
-          <img class="grid__img"src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
         </div>
-    </div>
-    <div class="grid__row">
-        <div class="grid__col">
-            <div class="text">
-                  <h1>Sendingarupplýsingar</h1>
-                  <label>Nafn:<input type="text"></label>
-                  <label>Heimilisfang:<input type="text"></label>
-                  <label>Póstnúmer:<input type="text"></label> 
-            </div>
-        </div> 
-        <div class="grid__col">
-            <div class="text">
-                  <h1>Greiðsluupplýsingar</h1>
-                  <label>Kortanúmer:<input type="text"></label>
-                  <label>Korthafi:<input type="text"></label>
-                  <select>
-                      <label>Gildistími:</label>
-                      <option value="volvo">Jan</option>
-                      <option value="saab">Feb</option>
-                      <option value="opel">Mars</option>
-                      <option value="audi">Apr</option>
-                      <option value="audi">Jún</option>
-                      <option value="audi">Júl</option>
-                      <option value="audi">Ágt</option>
-                      <option value="audi">Sept</option>
-                      <option value="audi">Nóv</option>
-                      <option value="audi">Des</option>
-                    </select>
-                    <button class="cart_button">Kaupa</button>
-            </div>
-        </div> 
-    <div class="grid__col">
-      <div class="text">
-        <h1>Hágæða heyrnatól</h1>
-        <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að þau eru
-          hágæða?</p>
-        <ul>
-          <li class="list_verd">39.999 kr.-</li>
-        </ul>
-        <label>Fjöldi:<input type="text"></label>
-        <button>Uppfæra</button>
-        <button>Eyða úr körfu</button>
+        <div class="gridcart__col">
+          <div class="cart__txt">
+            <h1>Ótrúlegt úr</h1>
+            <p>Hvað er klukkan? Þetta úr mun svara því hvenær sem er.</p>
+            <ul>
+              <li class="list_verd">99.900 kr.-</li>
+            </ul>
+            <label>Fjöldi:<input type="text"></label>
+            <button>Uppfæra</button>
+            <button>Eyða úr körfu</button>
+          </div>
+        </div>
+      </div>
+      <div class="gridcart__row">
+        <div class="gridcart__col">
+          <div class="cart__img">
+            <img class="image" src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
+          </div>
+        </div>
+        <div class="gridcart__col">
+          <div class="cart__txt">
+            <h1>Hágæða heyrnatól</h1>
+            <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að
+              þau
+              eru
+              hágæða?</p>
+            <ul>
+              <li class="list_verd">39.999 kr.-</li>
+            </ul>
+            <label>Fjöldi:<input type="text"></label>
+            <button>Uppfæra</button>
+            <button>Eyða úr körfu</button>
+          </div>
+        </div>
+      </div>
+      <div class="gridcart__row">
+        <div class="gridcart__col">
+          <div class="text">
+            <h1>Sendingarupplýsingar</h1>
+            <label>Nafn:<input type="text"></label>
+            <label>Heimilisfang:<input type="text"></label>
+            <label>Póstnúmer:<input type="text"></label>
+          </div>
+        </div>
+        <div class="gridcart__col">
+          <div class="text">
+            <h1>Greiðsluupplýsingar</h1>
+            <label>Kortanúmer:<input type="text"></label>
+            <label>Korthafi:<input type="text"></label>
+            <select>
+              <label>Gildistími:</label>
+              <option value="volvo">Jan</option>
+              <option value="saab">Feb</option>
+              <option value="opel">Mars</option>
+              <option value="audi">Apr</option>
+              <option value="audi">Jún</option>
+              <option value="audi">Júl</option>
+              <option value="audi">Ágt</option>
+              <option value="audi">Sept</option>
+              <option value="audi">Nóv</option>
+              <option value="audi">Des</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="gridcart__row">
+        <div class="gridcart__col">
+          <div class="button__cart">
+            <button class="cart_button">Kaupa</button>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="grid__col">
-      <img src="/img/headphones.jpg" alt="Mynd af höndum teymisins">
-    </div>
-  </div>
-  <div class="grid__row">
-    <div class="grid__col">
-      <div class="text">
-        <h1>Sendingarupplýsingar</h1>
-        <label>Nafn:<input type="text"></label>
-        <label>Heimilisfang:<input type="text"></label>
-        <label>Póstnúmer:<input type="text"></label>
-      </div>
-    </div>
-  </div>
-
+  </main>
+  <!-- Here starts the footer -->
   <footer>
     <nav>
       <h2 class="footer_headline">Vöruflokkar</h2>

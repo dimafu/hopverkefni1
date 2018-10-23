@@ -1,5 +1,6 @@
 // @import "scss/config";
 @import "scss/staff";
+@import "scss/cart";
 
 // ALL THE STYLES APPLIED ACROSS THE PAGES ARE HERE
 // Colors for the project
@@ -24,7 +25,6 @@ $mainWidth: 100%;
 $font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
 $font-family-heading: "Oswald", Verdana, serif;
 
-
 html {
   /* stylelint-disable-line */
   box-sizing: border-box;
@@ -45,6 +45,7 @@ body {
 
 main {
   max-width: 1200px;
+  margin: auto;
 }
 // Header styles
 header {
@@ -67,6 +68,28 @@ header {
     }
   }
 }
+// Grid styles
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  &__row {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  &__col {
+    padding-right: 10px;
+    padding-left: 10px;
+    &:hover .card {
+      transform: rotateY(180deg);
+    }
+  }
+  .image {
+    max-width: 100%;
+  }
+}
+
 // Footer styles
 footer {
   width: $mainWidth;
