@@ -52,7 +52,9 @@ footer nav {
     display: flex;
     flex-direction: row;
   }
-
+  .grid__row:last-of-type {
+    flex-direction: row-reverse;
+  }
   .grid__col {
     width: 50%;
     padding-right: 10px;
