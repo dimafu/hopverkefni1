@@ -27,9 +27,15 @@ html {
   overflow-x: hidden;
   font-size: $baseFontSize; // TODO fleiri grunn stillingar
 }
-h1 {
+h1, h2, h3 {
   font-family: $font-family-heading;
 }
+
+p {
+  font-family: $font-family-body;
+  margin: 10px 0;
+}
+
 body {
   font-family: $font-family-body;
 }

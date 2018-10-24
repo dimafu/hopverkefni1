@@ -18,6 +18,9 @@
     margin-left: -10px;
     margin-bottom: 20px;
     margin-top: 20px;
+    &--center {
+      justify-content: center;
+    }
   }
 
   &__left {
@@ -36,6 +39,10 @@
   }
 }
 
+.center {
+  margin: auto;
+}
+
 .halfwidth {
   display: flex;
   flex-direction: row;
@@ -43,4 +50,23 @@
 
 .empty {
   flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  label {
+    flex: 1;
+  }
+}
+
+.form__text {
+  flex-grow: 2;
+}
+
+.between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
