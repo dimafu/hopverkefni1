@@ -61,12 +61,15 @@
 }
 
 .form__text {
-  flex-grow: 2;
+  flex-grow: 1;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .between {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
