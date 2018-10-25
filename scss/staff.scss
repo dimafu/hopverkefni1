@@ -37,14 +37,14 @@
   &__col {
     padding-right: 10px;
     padding-left: 10px;
-    &:hover .card {
-      transform: rotateY(180deg);
-    }
   }
 }
 }
 .image {
   max-width: 100%;
+}
+.gridstaff__col:hover .card {
+  transform: rotateY(180deg);
 }
 @media (max-width:590px) {
   .gridstaff__col {
