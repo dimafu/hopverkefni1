@@ -1,3 +1,5 @@
+﻿Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við
+Möppuuppbygging er óbreytt frá því sem var en bætt hefur verið við skrám í scss möppuna, svo sem index,cart,staff og products. 
 
 # Group project 1
 

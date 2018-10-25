@@ -108,16 +108,21 @@ footer {
   width: $mainWidth;
   background: color(cFooter);
   margin-top: 60px;
-  padding: 10px;
 }
 .footer_listitem {
+  list-style: none;
+  padding: 20px;
+}
+.footerlink:hover {
+  color: #000000;
+}
+.footerlink {
   color: color(cFooterLI);
   transition: 0.3s ease-in-out;
-  list-style: none;
-  padding: 10px;
+  text-decoration: none;
 }
-.footer_listitem:hover {
-  color: #000000;
+.footerlink:visited {
+  list-style: none;
 }
 .footer__row {
   display: flex;
@@ -127,7 +132,13 @@ footer {
 .p__trademark {
   text-align: center;
 }
-@media (max-width: 600px) {
+.footer_headline {
+  margin-top: 20px;
+}
+.footer__col {
+  text-align: center;
+}
+@media (max-width: 850px){
   .footer__col {
     width: 50%;
   }
