@@ -1,5 +1,12 @@
 ﻿Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við
-Möppuuppbygging er óbreytt frá því sem var en bætt hefur verið við skrám í scss möppuna, svo sem index,cart,staff og products. 
+Möppuuppbygging er óbreytt frá því sem var en bætt hefur verið við skrám í scss möppuna, svo sem index,cart,staff og products.
+
+Upplýsingar um alla sem unnu verkefni:
+Dmitrii Fufachev
+Kjartan Elí Guðnason
+Þorri már Sigurþórsson
+
+Til að keyra verkefnið skal sækja repo af github, keyra npm install í möppunni sem verkefnið er í og keyra npm run dev.
 
 # Group project 1
 
