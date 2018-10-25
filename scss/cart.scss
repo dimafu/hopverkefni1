@@ -48,6 +48,10 @@
   flex-direction: row;
 }
 
+// .flexhalf {
+//   flex: 1;
+// }
+
 .empty {
   flex: 1;
 }
@@ -55,18 +59,28 @@
 .form {
   display: flex;
   flex-direction: column;
-  label {
-    flex: 1;
-  }
 }
 
 .form__text {
-  flex-grow: 2;
+  flex: 1.5;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .between {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin: 5px 0;
+  label {
+    flex: 1;
+  }
+}
+
+.dropdown {
+  display: flex;
+  flex: 1.7;
+  flex-direction: row;
+  justify-content: space-between;
 }

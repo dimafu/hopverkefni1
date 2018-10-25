@@ -1,6 +1,5 @@
 @import "scss/config";
 
-
 // ALL THE STYLES APPLIED ACROSS THE PAGES ARE HERE
 // Colors for the project
 $colors: (
@@ -27,7 +26,9 @@ html {
   overflow-x: hidden;
   font-size: $baseFontSize; // TODO fleiri grunn stillingar
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: $font-family-heading;
 }
 
@@ -132,6 +133,7 @@ footer {
 .p__trademark {
   text-align: center;
 }
+<<<<<<< HEAD
 .footer_headline {
   margin-top: 20px;
 }
@@ -139,9 +141,12 @@ footer {
   text-align: center;
 }
 @media (max-width: 850px){
+=======
+@media (max-width: 600px) {
+>>>>>>> aea09f11ff21ad5701ece3619cfc242f42ca08d5
   .footer__col {
     width: 50%;
-  } 
+  }
 }
 // TODO sækja allar sass skrár
 // @import "scss/button";
