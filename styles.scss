@@ -20,12 +20,14 @@ $mainWidth: 100%;
 // Font-families
 $font-family-body: "Open Sans", Helvetica, Arial, sans-serif;
 $font-family-heading: "Oswald", Verdana, serif;
+
 html {
   /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: $baseFontSize; // TODO fleiri grunn stillingar
 }
+
 h1,
 h2,
 h3 {
@@ -40,64 +42,78 @@ p {
 body {
   font-family: $font-family-body;
 }
+
 * {
   padding: 0;
   margin: 0;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 main {
   max-width: 1200px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
   @media (min-width: 1250px) {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
+
 // Header styles
 header {
   width: $mainWidth;
   background: color(cHeader);
   margin-bottom: 40px;
+
   h1 {
     text-align: center;
   }
+
   nav {
     display: flex;
     flex-direction: row;
+
     ul {
       display: flex;
     }
   }
+
   a {
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }
   }
 }
+
 // Grid styles
 .grid {
   display: flex;
   flex-direction: column;
   align-content: center;
+
   &__row {
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
   }
+
   &__col {
     padding-right: 10px;
     padding-left: 10px;
+
     &:hover .card {
       transform: rotateY(180deg);
     }
   }
+
   .image {
     max-width: 100%;
   }
@@ -109,40 +125,50 @@ footer {
   background: color(cFooter);
   margin-top: 60px;
 }
+
 .footer_listitem {
   list-style: none;
   padding: 20px;
 }
-.footerlink:hover {
+
+.foo terlink:hover {
   color: #000000;
 }
+
 .footerlink {
   color: color(cFooterLI);
   transition: 0.3s ease-in-out;
   text-decoration: none;
 }
+
 .footerlink:visited {
   list-style: none;
 }
+
 .footer__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .p__trademark {
   text-align: center;
 }
+
 .footer_headline {
   margin-top: 20px;
 }
+
 .footer__col {
   text-align: center;
 }
-@media (max-width: 850px){
+
+@media (max-width: 850px) {
   .footer__col {
     width: 50%;
   }
 }
+
 // TODO sækja allar sass skrár
 // @import "scss/button";
 // @import "scss/list";

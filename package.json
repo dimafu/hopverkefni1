@@ -8,13 +8,14 @@
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch --recursive styles.scss styles.css",
     "dev": "npm-run-all --parallel sass sass-watch browser-sync",
-    "lint": "stylelint styles.scss --syntax scss"
+    "lint": "stylelint styles.scss --syntax scss",
+    "lint-scss": "stylelint styles.scss scss/*.scss --syntax scss"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dimafu/hopverkefni1.git"
   },
-  "author": "Þorri már Sigurþórsson, Kjartan Elí Guðnason, Dmitrii Fufachev",
+  "author": "Þorri Már Sigurþórsson, Kjartan Elí Guðnason, Dmitrii Fufachev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dimafu/hopverkefni1/issues"
