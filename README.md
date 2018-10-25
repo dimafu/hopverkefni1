@@ -1,6 +1,6 @@
 # Project description
 
-The project was to implement the web design according to the specifications. We were supposed to employ various tools such as `browser-sync`, `node-sass` `stylint` etc.
+The project was to implement the web design according to the specifications. We were supposed to employ various tools such as `browser-sync`, `node-sass` `stylelint` etc.
 
 ## How to run the project
 ### Run procedure:
