@@ -17,6 +17,6 @@ Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CS
 Til að keyra verkefnið skal sækja repo af github, keyra npm install í möppunni sem verkefnið er í og keyra npm run dev.
 
 ### Upplýsingar um alla sem unnu verkefni: 
-Kjartan Elí Guðnason Þorri már Sigurþórsson Dmitrii Fufachev
+Kjartan Elí Guðnason, Þorri Már Sigurþórsson and Dmitrii Fufachev
 
 Original repo is from: https://github.com/vefforritun/vef1-2018-h1
