@@ -23,7 +23,7 @@
   height: 100%;
   transform: rotateY(180deg);
 }
-
+@media (min-width:600px) {
 .gridstaff {
   display: flex;
   flex-direction: column;
@@ -32,6 +32,7 @@
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
+    margin-top: 1.5em;
   }
   &__col {
     padding-right: 10px;
@@ -40,8 +41,17 @@
       transform: rotateY(180deg);
     }
   }
-  .image {
-    max-width: 100%;
+}
+}
+.image {
+  max-width: 100%;
+}
+@media (max-width:590px) {
+  .gridstaff__col {
+  margin-top: 3em;
+  }
+  .gridstaff__row:last-child {
+    margin-bottom: 5em;
   }
 }
 

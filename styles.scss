@@ -108,7 +108,6 @@ footer {
   width: $mainWidth;
   background: color(cFooter);
   margin-top: 60px;
-  padding: 10px;
 }
 .footer_listitem {
   list-style: none;
@@ -133,7 +132,6 @@ footer {
 .p__trademark {
   text-align: center;
 }
-<<<<<<< HEAD
 .footer_headline {
   margin-top: 20px;
 }
@@ -141,9 +139,6 @@ footer {
   text-align: center;
 }
 @media (max-width: 850px){
-=======
-@media (max-width: 600px) {
->>>>>>> aea09f11ff21ad5701ece3619cfc242f42ca08d5
   .footer__col {
     width: 50%;
   }

@@ -15,6 +15,7 @@ header {
       flex-wrap: wrap;
       margin: 0 auto;
       max-width: 1200px;
+      font-weight: 900;
 
       &__list {
         display: flex;
@@ -28,7 +29,7 @@ header {
       &__listitem {
           align-content: space-between;
           padding: 10px;
-          font-family: $font-family-heading;
+          font-family: $font-family-body;
           font-size: 14px;
       }
       
