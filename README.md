@@ -14,11 +14,7 @@ The project has `index.html` for the front page and `styles.css` for styles file
 
 All `.html` pages of the project except the front page are stored in `/pages` folder. All the `.scss` files except the main `styles.scss` are stored in `/scss` folder.
 
-Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við Möppuuppbygging er óbreytt frá því sem var en bætt hefur verið við skrám í scss möppuna, svo sem index,cart,staff og products.
-
-Til að keyra verkefnið skal sækja repo af github, keyra npm install í möppunni sem verkefnið er í og keyra npm run dev.
-
-### Upplýsingar um alla sem unnu verkefni: 
+### Students who worked on the project: 
 Kjartan Elí Guðnason, Þorri Már Sigurþórsson and Dmitrii Fufachev
 
 Original repo is from: https://github.com/vefforritun/vef1-2018-h1
