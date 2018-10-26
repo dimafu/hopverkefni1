@@ -35,8 +35,8 @@ h3 {
 }
 
 p {
-  font-family: $font-family-body;
   margin: 10px 0;
+  font-family: $font-family-body;
 }
 
 body {
@@ -56,20 +56,20 @@ body {
 
 main {
   max-width: 1200px;
-  margin: auto;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
   @media (min-width: 1250px) {
-    padding-left: 0;
     padding-right: 0;
+    padding-left: 0;
   }
 }
 
 // Header styles
 header {
   width: $mainWidth;
-  background: color(cHeader);
   margin-bottom: 40px;
+  background: color(cHeader);
 
   h1 {
     text-align: center;
@@ -101,8 +101,8 @@ header {
 
   &__row {
     display: flex;
-    margin-left: -10px;
     margin-right: -10px;
+    margin-left: -10px;
   }
 
   &__col {
@@ -122,13 +122,13 @@ header {
 // Footer styles
 footer {
   width: $mainWidth;
-  background: color(cFooter);
   margin-top: 60px;
+  background: color(cFooter);
 }
 
 .footer_listitem {
-  list-style: none;
   padding: 20px;
+  list-style: none;
 }
 
 .foo terlink:hover {
@@ -137,8 +137,8 @@ footer {
 
 .footerlink {
   color: color(cFooterLI);
-  transition: 0.3s ease-in-out;
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 .footerlink:visited {
@@ -152,8 +152,8 @@ footer {
 }
 
 .p__trademark {
+  padding-bottom: 1em;
   text-align: center;
-  padding-bottom:1em;
 }
 
 .footer_headline {

@@ -1,42 +1,47 @@
 h2 {
   font-family: $font-family-heading;
 }
+
 p {
   font-family: $font-family-body;
 }
+
 .text {
-  text-align: justify;
   font-size: 1.5em;
+  text-align: justify;
 }
+
 .grid__img {
   max-width: 100%;
 }
+
 .button__index {
-  background-color: #cc9694;
-  color: #000000;
-  border: none;
   width: 75%;
-  text-align: center;
-  font-size: 16px;
   padding: 16px;
   margin-top: 2em;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  background-color: #cc9694;
+  border: unset;
   transition: 0.3s ease-in-out;
 }
 
 .button__index:hover {
-  background-color: #000000;
   color: #cc9694;
+  background-color: #000000;
 }
 
 .grid__row {
-  margin-left: -10px;
-  margin-right: -10px;
   margin-top: 20px;
+  margin-right: -10px;
+  margin-left: -10px;
   flex-wrap: wrap;
 }
+
 .grid__col {
-  padding-left: 10px;
   padding-right: 10px;
+  padding-left: 10px;
   margin-bottom: 20px;
 }
 
@@ -56,9 +61,11 @@ footer nav {
     display: flex;
     flex-direction: row;
   }
+
   .grid__row:last-of-type {
     flex-direction: row-reverse;
   }
+
   .grid__col {
     width: 50%;
     padding-right: 10px;
@@ -74,8 +81,9 @@ footer nav {
   .button__index {
     width: 50%;
   }
+
   .grid__row {
-    margin-left: 10px;
     margin-right: 10px;
+    margin-left: 10px;
   }
 }

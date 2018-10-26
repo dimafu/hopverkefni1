@@ -1,76 +1,77 @@
 @import "config.scss";
 
 header {
-
   width: $mainWidth;
-  background: color(cHeader);
   margin-bottom: 40px;
-    h1 {
-      text-align: center;
-      font-family: $font-family-heading;
-      font-size: 48px;
-    }
-    .header {
+  background: color(cHeader);
+
+  h1 {
+    font-family: $font-family-heading;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: 900;
+
+    &__list {
       display: flex;
-      flex-wrap: wrap;
-      margin: 0 auto;
-      max-width: 1200px;
-      font-weight: 900;
-
-      &__list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        margin-left: 25%;
-        width: 50%;
-      }
-
-      &__listitem {
-          align-content: space-between;
-          padding: 10px;
-          font-family: $font-family-body;
-          font-size: 14px;
-      }
-      
-    }
-
-    .checkout {
-      display: flex;
-      justify-content: flex-end;
-      padding: 10px;
+      width: 50%;
+      justify-content: center;
       align-items: center;
-      width: 25%;
-
-      @media (max-width: 599px) {
-        justify-content: center;
-        width: 100%;
-      }
-
-      &__image {
-        align-content: center;
-        width: 20px;
-        height: 20px;
-      }
-
-      &__text {
-        margin: 20px;
-        transition: color 300ms ease-in-out;
-
-        &:hover {
-          color: #cee8ff;
-          cursor: pointer;
-        }
-      }
+      margin-left: 25%;
+      list-style: none;
     }
 
-    .link {
-      text-decoration: none;
-      color: #000000;
+    &__listitem {
+      align-content: space-between;
+      padding: 10px;
+      font-family: $font-family-body;
+      font-size: 14px;
+    }
+  }
+
+  .checkout {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    padding: 10px;
+    align-items: center;
+
+    @media (max-width: 599px) {
+      justify-content: center;
+      width: 100%;
+    }
+
+    &__image {
+      align-content: center;
+      width: 20px;
+      height: 20px;
+    }
+
+    &__text {
+      margin: 20px;
       transition: color 300ms ease-in-out;
+
       &:hover {
         color: #cee8ff;
         cursor: pointer;
       }
     }
   }
+
+  .link {
+    color: #000000;
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+
+    &:hover {
+      color: #cee8ff;
+      cursor: pointer;
+    }
+  }
+}

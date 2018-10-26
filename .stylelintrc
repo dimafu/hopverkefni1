@@ -1,6 +1,8 @@
 {
   "extends": "stylelint-config-primer",
   "rules": {
-    "plugin/no-unsupported-browser-features": null
+    "plugin/no-unsupported-browser-features": null,
+    "selector-max-type": null,
+    "color-hex-length": null
   }
 }
